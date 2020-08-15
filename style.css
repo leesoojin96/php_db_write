@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body.light {
+  background: #d4ffb4;
+  font-weight: normal;
+}
+
+body.pink {
+  background: #f7a8d4;
+  font-weight: bold;
+}
+
+header {
+    border-bottom : 1px solid gray;
+    padding : 20px;
+    height: 200px;
+  }
+
+header img {width: 150px;
+            float: right;
+  }
+
+nav {
+    border-right : 1px solid gray;
+    width: 200px;
+    height: 600px;
+    float: left;
+  }
+
+nav ol {
+    list-style: none;
+    padding: 0;
+  }
+
+#control {
+  float : right;
+}
+
+article {
+    position: absolute; right: 0; left: 200px;
+    float: left;
+    padding: 20px;
+  }
+
+h2 {
+  color : blue;
+  }
